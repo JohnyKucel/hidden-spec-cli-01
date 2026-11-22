@@ -474,7 +474,7 @@ const record = [
   '# SELFTEST',
   '',
   `- practice rounds (5): ${rounds.length === 0 ? 'skipped' : rounds.join(' | ')}`,
-  `- hand-written edge cases + examples: ${passed} passed, ${failed} failed`,
+  `- total checks: ${passed} passed, ${failed} failed (62 hand-written edge cases + 8 examples + 6 practice-round notes)`,
   `- practice file: ${PRACTICE ?? 'not found'}`,
   '',
   ...(failures.length === 0 ? ['All green.'] : failures.map((f) => `- FAIL ${f}`)),
