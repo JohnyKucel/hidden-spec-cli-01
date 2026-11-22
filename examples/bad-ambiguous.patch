@@ -1,0 +1,6 @@
+a.txt
+<<<<<<< SEARCH
+two
+=======
+2
+>>>>>>> REPLACE
